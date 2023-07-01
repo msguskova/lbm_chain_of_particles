@@ -1,5 +1,6 @@
 import os
 import sys
+import shutil
 import argparse
 
 import numpy as np
@@ -357,7 +358,7 @@ def make_particle(cx, cy, uw, ny, N, L, rad, vel_poiseuille=True):
         particle[:, 2] = poiseuille(0, 0, cy, uw, ny)
         
     particle[:, :1] %= L
-    print(poiseuille(0, 0, cy, uw, ny))
+    #print(poiseuille(0, 0, cy, uw, ny))
     return particle
 
 def get_data(time, particle, w, pforce, torque):
