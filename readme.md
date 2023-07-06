@@ -1,5 +1,6 @@
-# title :)
+#  work in progress: description will be updated (so as code)
 
+Chain of particles in Poiseuille 2D flow is simulated with the help of lattice Boltzmann method (LBM) coupled with immersed boundary method (IBM). Reynolds number is low $Re = 1$.
 
 ## Chain of particles 
 	python diff_rads_chain_shifted.py --help
