@@ -39,3 +39,7 @@ Chain of particles in Poiseuille 2D flow is simulated with the help of lattice B
 
 	optional arguments:
 	  -h, --help  show this help message and exit
+
+
+## Chain of coupled oscillators
+Notebook shows results of numerical integration of oscillators equations. Simulation is used to verify the spectrum calculation procedure.
